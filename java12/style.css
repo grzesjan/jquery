@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#carousel {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 2000px;
+}
+
+li {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#item1 {
+    background-color: gold;
+}
+
+#item2 {
+    background-color: gray;
+}
+
+#item3 {
+    background-color: lightcoral;
+}
+
+#item4 {
+    background-color: cornflowerblue;
+}
+
+#item5 {
+    background-color: orangered;
+}
